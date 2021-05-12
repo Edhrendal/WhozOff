@@ -1,0 +1,23 @@
+{
+    "name": "sg-php/whozoff",
+    "description": "API for Sully Group PHP kata to check who is off.",
+    "type": "project",
+    "require": {
+        "symfony/flex": "^1.12"
+    },
+    "require-dev": {
+        "symfony/maker-bundle": "^1.31"
+    },
+    "authors": [
+        {
+            "name": "VILLENA Billy",
+            "email": "billy.villena@sully-group.fr"
+        }
+    ],
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+        }
+    }
+}

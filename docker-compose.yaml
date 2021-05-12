@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  php:
+    image: sg/php/whoz-off/php
+    container_name: sg_php_whoz_off_php
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    ports:
+      - 80:80
+      - 8080:8080
+      - 9000:9000
+    volumes:
+      - ./:/app
