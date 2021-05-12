@@ -3,7 +3,24 @@
     "description": "API for Sully Group PHP kata to check who is off.",
     "type": "project",
     "require": {
-        "symfony/flex": "^1.12"
+        "symfony/flex": "^1.12",
+        "api-platform/core": "^2.6",
+        "nelmio/cors-bundle": "^2.1",
+        "symfony/asset": "^5.2",
+        "symfony/expression-language": "^5.2",
+        "composer/package-versions-deprecated": "1.11.99.1",
+        "doctrine/doctrine-bundle": "^2.3",
+        "doctrine/doctrine-migrations-bundle": "^3.1",
+        "doctrine/orm": "^2.8",
+        "symfony/proxy-manager-bridge": "^5.2",
+        "symfony/security-bundle": "^5.2",
+        "doctrine/annotations": "^1.0",
+        "phpdocumentor/reflection-docblock": "^5.2",
+        "symfony/property-access": "^5.2",
+        "symfony/property-info": "^5.2",
+        "symfony/serializer": "^5.2",
+        "symfony/twig-bundle": "^5.2",
+        "symfony/validator": "^5.2"
     },
     "require-dev": {
         "symfony/maker-bundle": "^1.31"
