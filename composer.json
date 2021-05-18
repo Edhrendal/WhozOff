@@ -3,6 +3,7 @@
     "description": "API for Sully Group PHP kata to check who is off.",
     "type": "project",
     "require": {
+        "php": "^8.0.6",
         "symfony/flex": "^1.12",
         "api-platform/core": "^2.6",
         "nelmio/cors-bundle": "^2.1",
