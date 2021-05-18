@@ -1,7 +1,19 @@
 api_platform:
+  title: WhozOff
+  description: Show all "teamers" who are off work
+  version: 1.0.0
+
+  defaults:
+    pagination_enabled: false
+
   mapping:
     paths: ['%kernel.project_dir%/src/Entity']
+
+  formats:
+    json: ['application/json']
+    html: ['text/html']
   patch_formats:
     json: ['application/merge-patch+json']
+
   swagger:
       versions: [3]
